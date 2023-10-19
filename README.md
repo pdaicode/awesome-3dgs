@@ -4,29 +4,12 @@ This is a curated list of papers and open source resources focused on 3D Gaussia
 
 ## Major Papers about 3D Gaussian Splatting:
 ### 3D Gaussian Splatting for Real-Time Radiance Field Rendering
-**Authors**: Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis
+**Authors**: Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis, SIGGRAPH 2023 (Best Paper)
 
 <details open>
 <summary><b>Abstract</b></summary>
-Radiance Field methods have recently revolutionized novel-view synthesis
-of scenes captured with multiple photos or videos. However, achieving high
-visual quality still requires neural networks that are costly to train and ren-
-der, while recent faster methods inevitably trade off speed for quality. For
-unbounded and complete scenes (rather than isolated objects) and 1080p
-resolution rendering, no current method can achieve real-time display rates.
-We introduce three key elements that allow us to achieve state-of-the-art
-visual quality while maintaining competitive training times and importantly
-allow high-quality real-time (≥ 30 fps) novel-view synthesis at 1080p resolu-
-tion. First, starting from sparse points produced during camera calibration,
-we represent the scene with 3D Gaussians that preserve desirable proper-
-ties of continuous volumetric radiance fields for scene optimization while
-avoiding unnecessary computation in empty space; Second, we perform
-interleaved optimization/density control of the 3D Gaussians, notably opti-
-mizing anisotropic covariance to achieve an accurate representation of the
-scene; Third, we develop a fast visibility-aware rendering algorithm that
-supports anisotropic splatting and both accelerates training and allows real-
-time rendering. We demonstrate state-of-the-art visual quality and real-time
-rendering on several established datasets.
+Radiance Field methods have recently revolutionized novel-view synthesis of scenes captured with multiple photos or videos. However, achieving high visual quality still requires neural networks that are costly to train and render, while recent faster methods inevitably trade off speed for quality. For unbounded and complete scenes (rather than isolated objects) and 1080p resolution rendering, no current method can achieve real-time display rates. We introduce three key elements that allow us to achieve state-of-the-art visual quality while maintaining competitive training times and importantly allow high-quality real-time (≥ 30 fps) novel-view synthesis at 1080p resolution. First, starting from sparse points produced during camera calibration, we represent the scene with 3D Gaussians that preserve desirable properties of continuous volumetric radiance fields for scene optimization while avoiding unnecessary computation in empty space; Second, we perform interleaved optimization/density control of the 3D Gaussians, notably optimizing anisotropic covariance to achieve an accurate representation of the
+scene; Third, we develop a fast visibility-aware rendering algorithm that supports anisotropic splatting and both accelerates training and allows real-time rendering. We demonstrate state-of-the-art visual quality and real-time rendering on several established datasets.
 </details>
   
   [📄 Paper (Low Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf) | [📄 Paper (High Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf) | [🌐 Project Page](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) | [💻 Code](https://github.com/graphdeco-inria/gaussian-splatting) | [🎥 Short Presentation](https://youtu.be/T_kXY43VZnk?si=DrkbDFxQAv5scQNT) | [🎥 Explanation Video](https://www.youtube.com/live/xgwvU7S0K-k?si=edF8NkYtsRbgTbKi)
@@ -73,15 +56,14 @@ Reconstructing dynamic 3D scenes from 2D images and generating diverse views ove
 
   [📄 Paper](https://arxiv.org/pdf/2310.10642.pdf) 
 
-
 ### 4K4D: Real-Time 4D View Synthesis at 4K Resolution
 <details open>
 <summary><b>Abstract</b></summary>
 This paper targets high-fidelity and real-time view synthesis of dynamic 3D scenes at 4K resolution. Recently, some methods on dynamic view synthesis have shown impressive rendering quality. However, their speed is still limited when rendering high-resolution images. To overcome this problem, we propose 4K4D, a 4D point cloud representation that supports hardware rasterization and enables unprecedented rendering speed. Our representation is built on a 4D feature grid so that the points are naturally regularized and can be robustly optimized. In addition, we design a novel hybrid appearance model that significantly boosts the rendering quality while preserving efficiency. Moreover, we develop a differentiable depth peeling algorithm to effectively learn the proposed model from RGB videos. Experiments show that our representation can be rendered at over 400 FPS on the DNA-Rendering dataset at 1080p resolution and 80 FPS on the ENeRF-Outdoor dataset at 4K resolution using an RTX 4090 GPU, which is 30× faster than previous methods and achieves the state-of-the-art rendering quality.
 </details>
-[📄 Paper](https://drive.google.com/file/d/1Y-C6ASIB8ofvcZkyZ_Vp-a2TtbiPw1Yx/view?usp=sharing) | [🌐 Project Page](https://zju3dv.github.io/4k4d/)
 
-
+  [📄 Paper](https://drive.google.com/file/d/1Y-C6ASIB8ofvcZkyZ_Vp-a2TtbiPw1Yx/view?usp=sharing) [🌐 Project Page](https://zju3dv.github.io/4k4d/)
+ 
 ## Diffusion 3D Gaussian Splatting:
 
 ### 1. Text-to-3D using Gaussian Splatting
@@ -89,21 +71,7 @@ This paper targets high-fidelity and real-time view synthesis of dynamic 3D scen
 
 <details open>
 <summary><b>Abstract</b></summary>
-In this paper, we present Gaussian Splatting based text-to-3D generation (GSGEN),
-a novel approach for generating high-quality 3D objects. Previous methods suffer
-from inaccurate geometry and limited fidelity due to the absence of 3D prior and
-proper representation. We leverage 3D Gaussian Splatting, a recent state-of-the-art
-representation, to address existing shortcomings by exploiting the explicit nature
-that enables the incorporation of 3D prior. Specifically, our method adopts a pro-
-gressive optimization strategy, which includes a geometry optimization stage and an
-appearance refinement stage. In geometry optimization, a coarse representation is
-established under a 3D geometry prior along with the ordinary 2D SDS loss, ensur-
-ing a sensible and 3D-consistent rough shape. Subsequently, the obtained Gaussians
-undergo an iterative refinement to enrich details. In this stage, we increase the num-
-ber of Gaussians by compactness-based densification to enhance continuity and
-improve fidelity. With these designs, our approach can generate 3D content with
-delicate details and more accurate geometry. Extensive evaluations demonstrate the
-effectiveness of our method, especially for capturing high-frequency components.
+In this paper, we present Gaussian Splatting based text-to-3D generation (GSGEN), a novel approach for generating high-quality 3D objects. Previous methods suffer from inaccurate geometry and limited fidelity due to the absence of 3D prior and proper representation. We leverage 3D Gaussian Splatting, a recent state-of-the-art representation, to address existing shortcomings by exploiting the explicit nature that enables the incorporation of 3D prior. Specifically, our method adopts a progressive optimization strategy, which includes a geometry optimization stage and an appearance refinement stage. In geometry optimization, a coarse representation is established under a 3D geometry prior along with the ordinary 2D SDS loss, ensuring a sensible and 3D-consistent rough shape. Subsequently, the obtained Gaussians undergo an iterative refinement to enrich details. In this stage, we increase the number of Gaussians by compactness-based densification to enhance continuity and improve fidelity. With these designs, our approach can generate 3D content with delicate details and more accurate geometry. Extensive evaluations demonstrate the effectiveness of our method, especially for capturing high-frequency components.
 </details>
 
 [📄 Paper](https://arxiv.org/pdf/2309.16585.pdf) | [🌐 Project Page](https://gsgen3d.github.io/) | [💻 Code](https://github.com/gsgen3d/gsgen) | [🎥 Short Presentation](https://streamable.com/28snte) | [🎥 Explanation Video](https://www.youtube.com/live/l956ye13F8M?si=ZkvFL_lsY5OQUB7e)
@@ -114,22 +82,7 @@ effectiveness of our method, especially for capturing high-frequency components.
 
 <details open>
 <summary><b>Abstract</b></summary>
-Recent advances in 3D content creation mostly leverage optimization-based 3D
-generation via score distillation sampling (SDS). Though promising results have
-been exhibited, these methods often suffer from slow per-sample optimization,
-limiting their practical usage. In this paper, we propose DreamGaussian, a novel
-3D content generation framework that achieves both efficiency and quality simul-
-taneously. Our key insight is to design a generative 3D Gaussian Splatting model
-with companioned mesh extraction and texture refinement in UV space. In con-
-trast to the occupancy pruning used in Neural Radiance Fields, we demonstrate
-that the progressive densification of 3D Gaussians converges significantly faster
-for 3D generative tasks. To further enhance the texture quality and facilitate down-
-stream applications, we introduce an efficient algorithm to convert 3D Gaussians
-into textured meshes and apply a fine-tuning stage to refine the details. Exten-
-sive experiments demonstrate the superior efficiency and competitive generation
-quality of our proposed approach. Notably, DreamGaussian produces high-quality
-textured meshes in just 2 minutes from a single-view image, achieving approxi-
-mately 10 times acceleration compared to existing methods.
+Recent advances in 3D content creation mostly leverage optimization-based 3D generation via score distillation sampling (SDS). Though promising results have been exhibited, these methods often suffer from slow per-sample optimization, limiting their practical usage. In this paper, we propose DreamGaussian, a novel 3D content generation framework that achieves both efficiency and quality simultaneously. Our key insight is to design a generative 3D Gaussian Splatting model with companioned mesh extraction and texture refinement in UV space. In contrast to the occupancy pruning used in Neural Radiance Fields, we demonstrate that the progressive densification of 3D Gaussians converges significantly faster for 3D generative tasks. To further enhance the texture quality and facilitate downstream applications, we introduce an efficient algorithm to convert 3D Gaussians into textured meshes and apply a fine-tuning stage to refine the details. Extensive experiments demonstrate the superior efficiency and competitive generation quality of our proposed approach. Notably, DreamGaussian produces high-quality textured meshes in just 2 minutes from a single-view image, achieving approximately 10 times acceleration compared to existing methods.
 </details>
 
   [📄 Paper](https://arxiv.org/pdf/2309.16653.pdf) | [🌐 Project Page](https://dreamgaussian.github.io/) | [💻 Code](https://github.com/dreamgaussian/dreamgaussian) | [🎥 Explanation Video](https://www.youtube.com/live/l956ye13F8M?si=ZkvFL_lsY5OQUB7e)
