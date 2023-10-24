@@ -45,7 +45,7 @@ enjoying high training and storage efficiency. An efficient deformation field is
 achieves real-time rendering under high resolutions, 70 FPS at a 800×800 resolution on an RTX 3090 GPU, while maintaining comparable or higher quality than previous state-of-the-art method.
 </details>
 
-  [📄 Paper](https://arxiv.org/pdf/2310.08528.pdf) | [🌐 Project Page](https://guanjunwu.github.io/4dgs/) | [💻 Code](https://github.com/hustvl/4DGaussians)
+  [📄 Paper](https://arxiv.org/pdf/2310.08528.pdf) | [🌐 Project Page](https://guanjunwu.github.io/4dgs/) | [💻 Code](https://github.com/hustvl/4DGaussians) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pdaicode/awesome-3dgs/blob/master/colabs/4DGaussians.ipynb)
   
 ### Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting
 
@@ -62,7 +62,7 @@ Reconstructing dynamic 3D scenes from 2D images and generating diverse views ove
 This paper targets high-fidelity and real-time view synthesis of dynamic 3D scenes at 4K resolution. Recently, some methods on dynamic view synthesis have shown impressive rendering quality. However, their speed is still limited when rendering high-resolution images. To overcome this problem, we propose 4K4D, a 4D point cloud representation that supports hardware rasterization and enables unprecedented rendering speed. Our representation is built on a 4D feature grid so that the points are naturally regularized and can be robustly optimized. In addition, we design a novel hybrid appearance model that significantly boosts the rendering quality while preserving efficiency. Moreover, we develop a differentiable depth peeling algorithm to effectively learn the proposed model from RGB videos. Experiments show that our representation can be rendered at over 400 FPS on the DNA-Rendering dataset at 1080p resolution and 80 FPS on the ENeRF-Outdoor dataset at 4K resolution using an RTX 4090 GPU, which is 30× faster than previous methods and achieves the state-of-the-art rendering quality.
 </details>
 
-  [📄 Paper](https://drive.google.com/file/d/1Y-C6ASIB8ofvcZkyZ_Vp-a2TtbiPw1Yx/view?usp=sharing) [🌐 Project Page](https://zju3dv.github.io/4k4d/)
+  [📄 Paper](https://drive.google.com/file/d/1Y-C6ASIB8ofvcZkyZ_Vp-a2TtbiPw1Yx/view?usp=sharing) | [🌐 Project Page](https://zju3dv.github.io/4k4d/)
  
 ## Diffusion 3D Gaussian Splatting:
 
