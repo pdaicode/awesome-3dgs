@@ -2,9 +2,18 @@
 3D Gaussian Splatting (3DGS) opens a new window for using neural rendering for real applications. 
 This is a curated list of papers and open source resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months. 
 
+[Related Papers](./PointCloud.md)
+## Most Recent Update Log:
+[Complete List](./UpdateLog.md)
+
+- 24 Oct: Added related papers
+
+
 ## Major Papers about 3D Gaussian Splatting:
 ### 3D Gaussian Splatting for Real-Time Radiance Field Rendering
-**Authors**: Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis, SIGGRAPH 2023 (Best Paper)
+**Authors**: [Bernhard Kerbl](https://scholar.google.at/citations?user=jeasMB0AAAAJ&hl=en), [Georgios Kopanas](https://scholar.google.com/citations?user=QLWLLHMAAAAJ), [Thomas Leimkühler](https://www-sop.inria.fr/members/Thomas-Sebastian.Leimkuhler/), [George Drettakis](https://scholar.google.fr/citations?user=LGo5J4IAAAAJ&hl=en) 
+
+**Published**: SIGGRAPH 2023 (Best Paper)
 
 <details open>
 <summary><b>Abstract</b></summary>
@@ -65,11 +74,12 @@ This paper targets high-fidelity and real-time view synthesis of dynamic 3D scen
   [📄 Paper](https://drive.google.com/file/d/1Y-C6ASIB8ofvcZkyZ_Vp-a2TtbiPw1Yx/view?usp=sharing) | [🌐 Project Page](https://zju3dv.github.io/4k4d/)
  
 ## Diffusion 3D Gaussian Splatting:
+Papers with shared code are ranked higher in this list
 
-### 1. Text-to-3D using Gaussian Splatting
+### Text-to-3D using Gaussian Splatting
 **Authors**: Zilong Chen, Feng Wang, Huaping Liu
 
-<details open>
+<details close>
 <summary><b>Abstract</b></summary>
 In this paper, we present Gaussian Splatting based text-to-3D generation (GSGEN), a novel approach for generating high-quality 3D objects. Previous methods suffer from inaccurate geometry and limited fidelity due to the absence of 3D prior and proper representation. We leverage 3D Gaussian Splatting, a recent state-of-the-art representation, to address existing shortcomings by exploiting the explicit nature that enables the incorporation of 3D prior. Specifically, our method adopts a progressive optimization strategy, which includes a geometry optimization stage and an appearance refinement stage. In geometry optimization, a coarse representation is established under a 3D geometry prior along with the ordinary 2D SDS loss, ensuring a sensible and 3D-consistent rough shape. Subsequently, the obtained Gaussians undergo an iterative refinement to enrich details. In this stage, we increase the number of Gaussians by compactness-based densification to enhance continuity and improve fidelity. With these designs, our approach can generate 3D content with delicate details and more accurate geometry. Extensive evaluations demonstrate the effectiveness of our method, especially for capturing high-frequency components.
 </details>
@@ -77,26 +87,31 @@ In this paper, we present Gaussian Splatting based text-to-3D generation (GSGEN)
 [📄 Paper](https://arxiv.org/pdf/2309.16585.pdf) | [🌐 Project Page](https://gsgen3d.github.io/) | [💻 Code](https://github.com/gsgen3d/gsgen) | [🎥 Short Presentation](https://streamable.com/28snte) | [🎥 Explanation Video](https://www.youtube.com/live/l956ye13F8M?si=ZkvFL_lsY5OQUB7e)
 
 
-### 2. DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
+### DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation
 **Authors**: Jiaxiang Tang, Jiawei Ren, Hang Zhou, Ziwei Liu, Gang Zeng
 
-<details open>
+<details close>
 <summary><b>Abstract</b></summary>
 Recent advances in 3D content creation mostly leverage optimization-based 3D generation via score distillation sampling (SDS). Though promising results have been exhibited, these methods often suffer from slow per-sample optimization, limiting their practical usage. In this paper, we propose DreamGaussian, a novel 3D content generation framework that achieves both efficiency and quality simultaneously. Our key insight is to design a generative 3D Gaussian Splatting model with companioned mesh extraction and texture refinement in UV space. In contrast to the occupancy pruning used in Neural Radiance Fields, we demonstrate that the progressive densification of 3D Gaussians converges significantly faster for 3D generative tasks. To further enhance the texture quality and facilitate downstream applications, we introduce an efficient algorithm to convert 3D Gaussians into textured meshes and apply a fine-tuning stage to refine the details. Extensive experiments demonstrate the superior efficiency and competitive generation quality of our proposed approach. Notably, DreamGaussian produces high-quality textured meshes in just 2 minutes from a single-view image, achieving approximately 10 times acceleration compared to existing methods.
 </details>
 
   [📄 Paper](https://arxiv.org/pdf/2309.16653.pdf) | [🌐 Project Page](https://dreamgaussian.github.io/) | [💻 Code](https://github.com/dreamgaussian/dreamgaussian) | [🎥 Explanation Video](https://www.youtube.com/live/l956ye13F8M?si=ZkvFL_lsY5OQUB7e)
 
-### 3. GaussianDreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors
-**Authors**:  Taoran Yi1, Jiemin Fang, Guanjun Wu1, Lingxi Xie, Xiaopeng Zhang,
-Wenyu Liu, Tian Qi, Xinggang Wang 
-<details open>
+### GaussianDreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors
+**Authors**:  Taoran Yi1, Jiemin Fang, Guanjun Wu1, Lingxi Xie, Xiaopeng Zhang, Wenyu Liu, Tian Qi, Xinggang Wang 
+<details close>
 <summary><b>Abstract</b></summary>
 In recent times, the generation of 3D assets from text prompts has shown impressive results. Both 2D and 3D diffusion models can generate decent 3D objects based on prompts. 3D diffusion models have good 3D consistency, but their quality and generalization are limited as trainable 
 3D data is expensive and hard to obtain. 2D diffusion models enjoy strong abilities of generalization and fine generation, but the 3D consistency is hard to guarantee. This paper attempts to bridge the power from the two types of diffusion models via the recent explicit and efficient 3D Gaussian splatting representation. A fast 3D generation framework, named as GaussianDreamer, is proposed, where the 3D diffusion model provides point cloud priors for initialization and the 2D diffusion model enriches the geometry and appearance. Operations of noisy point growing and color perturbation are introduced to enhance the initialized Gaussians. Our GaussianDreamer can generate a high-quality 3D instance within 25 minutes on one GPU, much faster than previous methods, while the generated instances can be directly rendered in real time.
 </details>
 
   [📄 Paper](https://arxiv.org/pdf/2310.08529.pdf) | [🌐 Project Page](https://taoranyi.com/gaussiandreamer/) | [💻 Code](https://github.com/hustvl/GaussianDreamer) 
+
+### Gsgen: Text-to-3D using Gaussian Splatting
+**Authors** anonymous
+
+[Paper](https://arxiv.org/abs/2309.16585) | [Project Page](https://gsgen3d.github.io/) | [Code](https://github.com/gsgen3d/gsgen) 
+
 
 ## Open Source Implementations 
 
