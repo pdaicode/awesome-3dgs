@@ -2,10 +2,12 @@
 3D Gaussian Splatting (3DGS) opens a new window for using neural rendering for real applications. 
 This is a curated list of papers and open source resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months. 
 
+**If you have any additions or suggestions, feel free to contribute. Everything is welcome.**
+
 [Related Papers](./PointCloud.md)
 ## Most Recent Update Log:
 [Complete List](./UpdateLog.md)
-
+- 27 Oct: Luma AI releases ["Luma UE Plugin 0.4"](https://twitter.com/LumaLabsAI/status/1717979512313364626): now with splats! Crop, cull, relight, supporting UE 5.3!
 - 24 Oct: Added related papers
 
 
@@ -52,6 +54,9 @@ Papers with shared code are ranked higher in this list
 - Gsgen: Text-to-3D using Gaussian Splatting, 
 [Paper](https://arxiv.org/abs/2309.16585) | [Project Page](https://gsgen3d.github.io/) | [Code](https://github.com/gsgen3d/gsgen) 
 
+## Products
+- [Luma AI](https://lumalabs.ai/interactive-scenes)
+- [Polycam](https://poly.cam/gaussian-splatting)
 
 ## Open Source Implementations 
 
