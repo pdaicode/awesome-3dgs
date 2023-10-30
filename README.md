@@ -5,9 +5,10 @@ This is a curated list of papers and open source resources focused on 3D Gaussia
 **If you have any additions or suggestions, feel free to contribute. Everything is welcome.**
 
 [Related Papers](./PointCloud.md)
-## Most Recent Update Log:
+## Most Recent Update & News:
 [Complete List](./UpdateLog.md)
-- 27 Oct: Luma AI releases ["Luma UE Plugin 0.4"](https://twitter.com/LumaLabsAI/status/1717979512313364626): now with splats! Crop, cull, relight, supporting UE 5.3!
+- 29 Oct: Start a separate page for [**Dynamic NeRF**](./dynamic)
+- 27 Oct: [News] Luma AI releases ["Luma UE Plugin 0.4"](https://twitter.com/LumaLabsAI/status/1717979512313364626): now with splats! Crop, cull, relight, supporting UE 5.3!
 - 24 Oct: Added related papers
 
 

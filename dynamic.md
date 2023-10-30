@@ -1,0 +1,7 @@
+# Dynamic NeRF
+
+## 2023
+- Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis, Jonathon Luiten, Georgios Kopanas, Bastian Leibe, Deva Ramanan, 2023. [[Paper](https://dynamic3dgaussians.github.io/paper.pdf) | [Project Page](https://dynamic3dgaussians.github.io/) | [Code](https://github.com/JonathonLuiten/Dynamic3DGaussians) | [Explanation Video](https://www.youtube.com/live/hDuy1TgD8I4?si=6oGN0IYnPRxOibpg)]
+- V4D: Voxel for 4D Novel View Synthesis, Wanshui Gan, Hongbin Xu, Yi Huang, Shifeng Chen, Naoto Yokoya, IEEE Transactions on Visualization and Computer Graphics, 2023. [[Paper](https://arxiv.org/abs/2205.14332) | [Code](https://github.com/GANWANSHUI/V4D)] (instructions for custom data)
+- Tensor4D : Efficient Neural 4D Decomposition for High-fidelity Dynamic Reconstruction and Rendering, Shao, Ruizhi and Zheng, Zerong and Tu, Hanzhang and Liu, Boning and Zhang, Hongwen and Liu, Yebin, CVPR, 2023. [[Paper](https://arxiv.org/abs/2211.11610) | [Code](https://github.com/DSaurus/Tensor4D)]
+- HexPlane: A Fast Representation for Dynamic Scenes, Ang Cao, Justin Johnson, CVPR, 2023. [[Paper](https://caoang327.github.io/HexPlane/HexPlane.pdf) | [Project Page](https://caoang327.github.io/HexPlane/) | [Code](https://github.com/Caoang327/HexPlane)]
