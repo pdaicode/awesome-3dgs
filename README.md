@@ -55,20 +55,14 @@ Papers with shared code are ranked higher in this list
 - Gsgen: Text-to-3D using Gaussian Splatting, 
 [Paper](https://arxiv.org/abs/2309.16585) | [Project Page](https://gsgen3d.github.io/) | [Code](https://github.com/gsgen3d/gsgen) 
 
-## Products
-- [Luma AI](https://lumalabs.ai/interactive-scenes)
-- [Polycam](https://poly.cam/gaussian-splatting)
 
 ## Open Source Implementations 
 
-### Colab Resources
+### Colab
 - [Camenduru](https://github.com/camenduru/gaussian-splatting-colab)
 - [NeRFStudio](https://github.com/nerfstudio-project/nerfstudio/blob/main/colab/demo.ipynb)
 
-### Reference 
-- [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
-
-### Taichi Implementations
+### Taichi 
 - [Taichi 3D Gaussian Splatting](https://github.com/wanmeihuali/taichi_3d_gaussian_splatting)
 
 ### Game Engines 
@@ -85,17 +79,25 @@ Papers with shared code are ranked higher in this list
 - [Three.js](https://github.com/mkkellogg/GaussianSplats3D)
 - [A-Frame](https://github.com/quadjr/aframe-gaussian-splatting)
 
-## Blog Posts
+## Documents
+### Product
+- [Luma AI](https://lumalabs.ai/interactive-scenes)
+- [Polycam](https://poly.cam/gaussian-splatting)
+
+### Blog Posts
 
 1. [Gaussian Splatting is pretty cool](https://aras-p.info/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/)
 2. [Making Gaussian Splats smaller](https://aras-p.info/blog/2023/09/13/Making-Gaussian-Splats-smaller/)
 3. [Making Gaussian Splats more smaller](https://aras-p.info/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/)
 
-## Tutorial Videos
+### Tutorial Videos
 
 1. [Getting Started with 3DGS](https://youtu.be/UXtuigy_wYc?si=j1vfORNspcocSH-b)
 2. [How to view 3DGS Scenes in Unity](https://youtu.be/5_GaPYBHqOo?si=6u9j1HqXwF_5WSUL)
 
-## Credits
 
-Thanks to [MrNeRF](https://github.com/MrNeRF/awesome-3D-gaussian-splatting/tree/main)
+## Reference 
+- [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
+- [MrNeRF](https://github.com/MrNeRF/awesome-3D-gaussian-splatting/tree/main)
+- https://dellaert.github.io/NeRF22/
+- https://github.com/yangjiheng/nerf_and_beyond_docs
