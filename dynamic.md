@@ -1,7 +1,17 @@
 # Dynamic NeRF
-
-- [Data Preparation](https://github.com/KAIR-BAIR/dycheck/blob/main/docs/RECORD3D_CAPTURE.md)
+## Data Preparation
+- [Monocular Dynamic View Synthesis: A Reality Check](https://github.com/KAIR-BAIR/dycheck/blob/main/docs/RECORD3D_CAPTURE.md)
 - [Process a video into a Nerfie dataset](https://colab.research.google.com/github/google/nerfies/blob/main/notebooks/Nerfies_Capture_Processing.ipynb)
+
+
+## Datasets
+### Synthetic
+- [D-Nerf Dataset](https://www.albertpumarola.com/research/D-NeRF/index.html)
+
+### Real
+- [Plenoptic Dataset](https://github.com/facebookresearch/Neural_3D_Video/releases/tag/v1.0)
+- [Hypernerf Dataset](https://github.com/google/hypernerf/releases/tag/v0.1)
+- [Nerfies Dataset](https://github.com/google/nerfies/releases/download/0.1/nerfies-vrig-dataset-v0.1.zip)
 
 ## 2024
 - Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis, Luiten et. al., International Conference on 3D Vision (3DV), 2024. [[Paper](https://dynamic3dgaussians.github.io/paper.pdf) | [Project Page](https://dynamic3dgaussians.github.io/) | [Code](https://github.com/JonathonLuiten/Dynamic3DGaussians) | [Explanation Video](https://www.youtube.com/live/hDuy1TgD8I4?si=6oGN0IYnPRxOibpg)]

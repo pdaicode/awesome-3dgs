@@ -2,11 +2,14 @@
 3D Gaussian Splatting (3DGS) opens a new window for using neural rendering for real applications. 
 This repo is intended to provide a collection of papers that are related to 3DGS, but not necessarily use 3DGS.
 
+In general, 3D Gaussian Splatting can be considered as a variant of NeRF. This repo will more focused on the practical side of NeRF, e.g. realtime, compatibility with Unity/Unreal, ease of editing, etc.
+
 **If you have any additions or suggestions, feel free to contribute. Everything is welcome.**
 
 [Related Papers](./PointCloud.md)
 ## Most Recent Update & News:
 [Complete List](./UpdateLog.md)
+- 14 Nov: Start a separate page for [**NeRF**](./nerf)
 - 29 Oct: Start a separate page for [**Dynamic NeRF**](./dynamic)
 - 27 Oct: [News] Luma AI releases ["Luma UE Plugin 0.4"](https://twitter.com/LumaLabsAI/status/1717979512313364626): now with splats! Crop, cull, relight, supporting UE 5.3!
 - 24 Oct: Added related papers
