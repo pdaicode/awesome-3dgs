@@ -9,6 +9,7 @@ In general, 3D Gaussian Splatting can be considered as a variant of NeRF. This r
 [Related Papers](./PointCloud.md)
 ## Most Recent Update & News:
 [Complete List](./UpdateLog.md)
+- 26 Nov: added more details for cumstom data.
 - 14 Nov: Start a separate page for [**NeRF**](./nerf)
 - 29 Oct: Start a separate page for [**Dynamic NeRF**](./dynamic)
 - 27 Oct: [News] Luma AI releases ["Luma UE Plugin 0.4"](https://twitter.com/LumaLabsAI/status/1717979512313364626): now with splats! Crop, cull, relight, supporting UE 5.3!
@@ -58,6 +59,11 @@ Papers with shared code are ranked higher in this list
 - Gsgen: Text-to-3D using Gaussian Splatting, 
 [Paper](https://arxiv.org/abs/2309.16585) | [Project Page](https://gsgen3d.github.io/) | [Code](https://github.com/gsgen3d/gsgen) 
 
+- LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes,
+[Paper](https://arxiv.org/abs/2311.13384) | [Project Page](https://luciddreamer-cvlab.github.io/) 
+
+- PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics,
+[Paper](https://arxiv.org/abs/2311.12198) | [Project Page](https://xpandora.github.io/PhysGaussian/) 
 
 ## Open Source Implementations 
 
