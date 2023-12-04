@@ -16,19 +16,20 @@ In general, 3D Gaussian Splatting can be considered as a variant of NeRF. This r
 - 24 Oct: Added related papers
 
 
-## 3D Gaussian Splatting for Real-Time Radiance Field Rendering
+## 3D Reconstruction
 
-**Authors**: [Bernhard Kerbl](https://scholar.google.at/citations?user=jeasMB0AAAAJ&hl=en), [Georgios Kopanas](https://scholar.google.com/citations?user=QLWLLHMAAAAJ), [Thomas Leimkühler](https://www-sop.inria.fr/members/Thomas-Sebastian.Leimkuhler/), [George Drettakis](https://scholar.google.fr/citations?user=LGo5J4IAAAAJ&hl=en), 
+- **3D Gaussian Splatting for Real-Time Radiance Field Rendering**, [Bernhard Kerbl](https://scholar.google.at/citations?user=jeasMB0AAAAJ&hl=en), [Georgios Kopanas](https://scholar.google.com/citations?user=QLWLLHMAAAAJ), [Thomas Leimkühler](https://www-sop.inria.fr/members/Thomas-Sebastian.Leimkuhler/), [George Drettakis](https://scholar.google.fr/citations?user=LGo5J4IAAAAJ&hl=en), SIGGRAPH 2023 (Best Paper). [📄 Paper (Low Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf) | [📄 Paper (High Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf) | [🌐 Project Page](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) | [💻 Code](https://github.com/graphdeco-inria/gaussian-splatting) | [🎥 Short Presentation](https://youtu.be/T_kXY43VZnk?si=DrkbDFxQAv5scQNT) | [🎥 Explanation Video](https://www.youtube.com/live/xgwvU7S0K-k?si=edF8NkYtsRbgTbKi) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pdaicode/awesome-3dgs/blob/master/colabs/gaussian_splatting_colab.ipynb)
 
-**Published**: SIGGRAPH 2023 (Best Paper)
-
-<details open>
-<summary><b>Abstract</b></summary>
-Radiance Field methods have recently revolutionized novel-view synthesis of scenes captured with multiple photos or videos. However, achieving high visual quality still requires neural networks that are costly to train and render, while recent faster methods inevitably trade off speed for quality. For unbounded and complete scenes (rather than isolated objects) and 1080p resolution rendering, no current method can achieve real-time display rates. We introduce three key elements that allow us to achieve state-of-the-art visual quality while maintaining competitive training times and importantly allow high-quality real-time (≥ 30 fps) novel-view synthesis at 1080p resolution. First, starting from sparse points produced during camera calibration, we represent the scene with 3D Gaussians that preserve desirable properties of continuous volumetric radiance fields for scene optimization while avoiding unnecessary computation in empty space; Second, we perform interleaved optimization/density control of the 3D Gaussians, notably optimizing anisotropic covariance to achieve an accurate representation of the
-scene; Third, we develop a fast visibility-aware rendering algorithm that supports anisotropic splatting and both accelerates training and allows real-time rendering. We demonstrate state-of-the-art visual quality and real-time rendering on several established datasets.
-</details>
-  
-[📄 Paper (Low Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf) | [📄 Paper (High Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf) | [🌐 Project Page](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) | [💻 Code](https://github.com/graphdeco-inria/gaussian-splatting) | [🎥 Short Presentation](https://youtu.be/T_kXY43VZnk?si=DrkbDFxQAv5scQNT) | [🎥 Explanation Video](https://www.youtube.com/live/xgwvU7S0K-k?si=edF8NkYtsRbgTbKi) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pdaicode/awesome-3dgs/blob/master/colabs/gaussian_splatting_colab.ipynb)
+- Mip-Splatting: Alias-free 3D Gaussian Splatting, [paper](https://arxiv.org/abs/2311.16493) | [code](https://github.com/autonomousvision/mip-splatting)
+- Gaussian Shell Maps for Efficient 3D Human Generation, [paper](https://arxiv.org/abs/2311.17857)
+- Compact 3D Gaussian Representation for Radiance Field, [paper](https://github.com/maincold2/Compact-3DGS/blob/main) | [code](https://github.com/maincold2/Compact-3DGS)
+- FisherRF: Active View Selection and Uncertainty Quantification for Radiance Fields using Fisher Information, [paper](https://arxiv.org/abs/2311.17874)
+- HUGS: Human Gaussian Splats, [paper](https://arxiv.org/abs/2311.17910)
+- LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS, [paper](https://arxiv.org/abs/2311.17245)
+- Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering, [paper](https://arxiv.org/abs/2311.17089)
+- Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling, [paper](https://arxiv.org/pdf/2311.16096.pdf)
+- Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing, [paper](https://arxiv.org/abs/2311.16043)
+- SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering, [paper](https://arxiv.org/abs/2311.12775)
 
 ## Dynamic 3D Gaussian Splatting:
 - Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis, Jonathon Luiten, Georgios Kopanas, Bastian Leibe, Deva Ramanan. 
@@ -64,6 +65,8 @@ Papers with shared code are ranked higher in this list
 
 - PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics,
 [Paper](https://arxiv.org/abs/2311.12198) | [Project Page](https://xpandora.github.io/PhysGaussian/) 
+
+- HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting, [paper](https://arxiv.org/abs/2311.17061)
 
 ## Open Source Implementations 
 
