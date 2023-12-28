@@ -41,7 +41,7 @@ Quality
 - GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting, [Paper](https://arxiv.org/abs/2311.11700)
 - SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM, [[Paper](https://arxiv.org/pdf/2312.02126.pdf) | [Code](https://github.com/spla-tam/SplaTAM)]
 
-Reflection
+Reflection & Relighting
 - GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces, [[Paper](https://arxiv.org/abs/2311.17977) | [Code](https://github.com/Asparagus15/GaussianShader)]
 - Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing, [Paper](https://arxiv.org/abs/2311.16043)
 
@@ -64,15 +64,17 @@ Papers with shared code are ranked higher in this list
 - HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting, [[Paper](https://arxiv.org/abs/2311.17061)]
 - Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting, [[Paper](https://arxiv.org/abs/2312.04820) | [Code](https://github.com/yangxiaofeng/LODS)]
 
-## Digital Avatar
+## 4. Digital Avatar
 - HeadGaS: Real-Time Animatable Head Avatars via 3D Gaussian Splatting, [Paper](https://arxiv.org/abs/2312.02902)
 - HUGS: Human Gaussian Splats, [Paper](https://arxiv.org/abs/2311.17910)
 - SplatArmor: Articulated Gaussian splatting for animatable humans from monocular RGB videos, [Paper](https://arxiv.org/pdf/2311.10812)
 - Gaussian Shell Maps for Efficient 3D Human Generation, [Paper](https://arxiv.org/abs/2311.17857)
 - Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling, [Paper](https://arxiv.org/pdf/2311.16096.pdf)
 
+## 5. LLM 3D Gaussian Splatting
+- LangSplat: 3D Language Gaussian Splatting, [[Paper](https://arxiv.org/pdf/2312.16084.pdf) | [Project Page](https://langsplat.github.io/) | [Code](https://github.com/minghanqin/LangSplat)]
 
-## 4. 3D Gaussian Viewers
+## 6. 3D Gaussian Viewers
 
 ### Colab
 - [Camenduru](https://github.com/camenduru/gaussian-splatting-colab)
@@ -94,7 +96,7 @@ Papers with shared code are ranked higher in this list
 - [Unity Implementation](https://github.com/aras-p/UnityGaussianSplatting)
 - [Blender](https://github.com/ReshotAI/gaussian-splatting-blender-addon)
 
-## 5. Documents
+## 6. Documents
 ### Product
 - [Luma AI](https://lumalabs.ai/interactive-scenes)
 - [Polycam](https://poly.cam/gaussian-splatting)
