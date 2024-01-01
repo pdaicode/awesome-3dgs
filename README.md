@@ -45,12 +45,17 @@ Reflection & Relighting
 - GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces, [[Paper](https://arxiv.org/abs/2311.17977) | [Code](https://github.com/Asparagus15/GaussianShader)]
 - Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing, [Paper](https://arxiv.org/abs/2311.16043)
 
+Others
+- Splatter Image: Ultra-Fast Single-View 3D Reconstruction, [[Paper](https://arxiv.org/abs/2312.13150) | [Code](https://github.com/szymanowiczs/splatter-image)]
+- pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction, [[Paper](https://arxiv.org/abs/2312.12337) | [Project Page](https://davidcharatan.com/pixelsplat/)]
+
 ## 2. Dynamic 3D Gaussian Splatting:
 - ```[+]``` 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering, [[Paper](https://arxiv.org/pdf/2310.08528.pdf) | [Project Page](https://guanjunwu.github.io/4dgs/) | [Code](https://github.com/hustvl/4DGaussians) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pdaicode/awesome-3dgs/blob/master/colabs/4DGaussians.ipynb)]
+- ```[+]``` 4K4D: Real-Time 4D View Synthesis at 4K Resolution. [[Paper](https://drive.google.com/file/d/1Y-C6ASIB8ofvcZkyZ_Vp-a2TtbiPw1Yx/view?usp=sharing) | [Project Page](https://zju3dv.github.io/4k4d/) | [Code (Inference)](https://github.com/zju3dv/4K4D)]]
 - Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis, [[Paper](https://dynamic3dgaussians.github.io/paper.pdf) | [Project Page](https://dynamic3dgaussians.github.io/) | [Code](https://github.com/JonathonLuiten/Dynamic3DGaussians) | [Explanation Video](https://www.youtube.com/live/hDuy1TgD8I4?si=6oGN0IYnPRxOibpg)]
 - Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction, [[Paper](https://arxiv.org/pdf/2309.13101.pdf) | [Project Page](https://ingra14m.github.io/Deformable-Gaussians/) | [Code](https://github.com/ingra14m/Deformable-3D-Gaussians)]
 - Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting, [Paper](https://arxiv.org/pdf/2310.10642.pdf) 
-- 4K4D: Real-Time 4D View Synthesis at 4K Resolution. [[Paper](https://drive.google.com/file/d/1Y-C6ASIB8ofvcZkyZ_Vp-a2TtbiPw1Yx/view?usp=sharing) | [Project Page](https://zju3dv.github.io/4k4d/)]
+- GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis, [Project Page](https://lynl7130.github.io/gaufre/index.html)
 
 ## 3. Generative 3D Gaussian Splatting:
 Papers with shared code are ranked higher in this list
@@ -65,11 +70,14 @@ Papers with shared code are ranked higher in this list
 - Learn to Optimize Denoising Scores for 3D Generation: A Unified and Improved Diffusion Prior on NeRF and 3D Gaussian Splatting, [[Paper](https://arxiv.org/abs/2312.04820) | [Code](https://github.com/yangxiaofeng/LODS)]
 
 ## 4. Digital Avatar
+- Gaussian Shell Maps for Efficient 3D Human Generation, [[Paper](https://arxiv.org/abs/2311.17857) | [Code](https://github.com/computational-imaging/GSM)]
+- GauHuman: Articulated Gaussian Splatting from Monocular Human Videos, [[Paper](https://arxiv.org/pdf/2312.02973.pdf) | [Project Page](https://skhu101.github.io/GauHuman/) | [Code](https://github.com/skhu101/GauHuman)]
 - HeadGaS: Real-Time Animatable Head Avatars via 3D Gaussian Splatting, [Paper](https://arxiv.org/abs/2312.02902)
 - HUGS: Human Gaussian Splats, [Paper](https://arxiv.org/abs/2311.17910)
 - SplatArmor: Articulated Gaussian splatting for animatable humans from monocular RGB videos, [Paper](https://arxiv.org/pdf/2311.10812)
-- Gaussian Shell Maps for Efficient 3D Human Generation, [Paper](https://arxiv.org/abs/2311.17857)
 - Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling, [Paper](https://arxiv.org/pdf/2311.16096.pdf)
+- Human101: Training 100+FPS Human Gaussians in 100s from 1 View, [Paper](https://arxiv.org/abs/2312.15258)
+- Deformable 3D Gaussian Splatting for Animatable Human Avatars, [Paper](https://arxiv.org/abs/2312.15059)
 
 ## 5. LLM 3D Gaussian Splatting
 - LangSplat: 3D Language Gaussian Splatting, [[Paper](https://arxiv.org/pdf/2312.16084.pdf) | [Project Page](https://langsplat.github.io/) | [Code](https://github.com/minghanqin/LangSplat)]
