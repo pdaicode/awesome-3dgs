@@ -23,6 +23,9 @@ Balloon1, Balloon2, Jumping, Playground, Skating, Truck, Umbrella
 # 2. Papers
 ## 2024
 - Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis, Luiten et. al., International Conference on 3D Vision (3DV), 2024. [[Paper](https://dynamic3dgaussians.github.io/paper.pdf) | [Project Page](https://dynamic3dgaussians.github.io/) | [Code](https://github.com/JonathonLuiten/Dynamic3DGaussians) | [Explanation Video](https://www.youtube.com/live/hDuy1TgD8I4?si=6oGN0IYnPRxOibpg)]
+- DaReNeRF: Direction-aware Representation for Dynamic Scenes, CVPR 2024
+- DynPoint: Dynamic Neural Point For View Synthesis, NeurIPS 2024.
+- SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes. [Code](https://github.com/yihua7/SC-GS)
 
 ## 2023
 - DynIBaR: Neural Dynamic Image-Based Rendering, CVPR, 2023 [[Project Page](https://dynibar.github.io/)]
