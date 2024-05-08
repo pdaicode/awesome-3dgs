@@ -12,6 +12,7 @@ Other resources: [Dynamic NeRF](./dynamic.md)
 
 ## Most Recent Update & News:
 [Complete List](./UpdateLog.md)
+- 7 May: added **2024** section
 - 21 Dec: added **verified** section
 - 26 Nov: added more details for cumstom data.
 - 14 Nov: Start a separate page for [**NeRF**](./nerf)
@@ -27,6 +28,12 @@ Other resources: [Dynamic NeRF](./dynamic.md)
 ### 2024
 - GaussianPro: 3D Gaussian Splatting with Progressive Propagation, [[Paper](https://arxiv.org/abs/2402.14650) | [Project](https://github.com/kcheng1021/GaussianPro)]
 - VR-GS: A Physical Dynamics-Aware Interactive Gaussian Splatting System in Virtual Reality, [[Paper](https://arxiv.org/abs/2401.16663) | [Project](https://yingjiang96.github.io/VR-GS/)]
+
+Compression & Efficiency
+- GaussianPro: 3D Gaussian Splatting with Progressive Propagation, [[Paper](https://arxiv.org/abs/2402.14650) | [Code](https://github.com/kcheng1021/GaussianPro)]
+- InstantSplat: Unbounded Sparse-view Pose-free Gaussian Splatting in 10 Seconds, [[Paper](https://arxiv.org/pdf/2403.20309.pdf)
+- HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression, [[Paper](https://arxiv.org/abs/2403.14530) | [Code](https://github.com/YihangChen-ee/HAC)]
+- Reducing the Memory Footprint of 3D Gaussian Splatting, [[Paper](https://repo-sam.inria.fr/fungraph/reduced_3dgs/reduced_3DGS_i3d.pdf) | [Project](https://repo-sam.inria.fr/fungraph/reduced_3dgs/#:~:text=Our%20approach%20to%20reduce%20the,is%20applied%20as%20post%2Dprocessing.)]
 
 ### 2023
 Speed & Efficiency
@@ -63,7 +70,7 @@ Others
 
 ## 3. Generative 3D Gaussian Splatting:
 Papers with shared code are ranked higher in this list
-
+- DreamGaussian4D: Generative 4D Gaussian Splatting, [[Paper](https://arxiv.org/abs/2312.17142) | [Code](https://github.com/jiawei-ren/dreamgaussian4d)]
 - Text-to-3D using Gaussian Splatting, [[📄 Paper](https://arxiv.org/pdf/2309.16585.pdf) | [Project Page](https://gsgen3d.github.io/) | [Code](https://github.com/gsgen3d/gsgen) | [Explanation Video](https://www.youtube.com/live/l956ye13F8M?si=ZkvFL_lsY5OQUB7e)]
 - DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation, [Paper](https://arxiv.org/pdf/2309.16653.pdf) | [Project Page](https://dreamgaussian.github.io/) | [Code](https://github.com/dreamgaussian/dreamgaussian) | [Explanation Video](https://www.youtube.com/live/l956ye13F8M?si=ZkvFL_lsY5OQUB7e)]
 - GaussianDreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors, [[Paper](https://arxiv.org/pdf/2310.08529.pdf) | [Project Page](https://taoranyi.com/gaussiandreamer/) | [Code](https://github.com/hustvl/GaussianDreamer)]
