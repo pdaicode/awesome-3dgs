@@ -25,6 +25,7 @@ Balloon1, Balloon2, Jumping, Playground, Skating, Truck, Umbrella
 - Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis, Luiten et. al., International Conference on 3D Vision (3DV), 2024. [[Paper](https://dynamic3dgaussians.github.io/paper.pdf) | [Project Page](https://dynamic3dgaussians.github.io/) | [Code](https://github.com/JonathonLuiten/Dynamic3DGaussians) | [Explanation Video](https://www.youtube.com/live/hDuy1TgD8I4?si=6oGN0IYnPRxOibpg)]
 - DaReNeRF: Direction-aware Representation for Dynamic Scenes, CVPR 2024
 - DynPoint: Dynamic Neural Point For View Synthesis, NeurIPS 2024.
+- Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos, AAAI2024. [Code](https://github.com/seoha-kim/Sync-NeRF)
 - SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes. [Code](https://github.com/yihua7/SC-GS)
 
 ## 2023
@@ -38,6 +39,8 @@ Balloon1, Balloon2, Jumping, Playground, Skating, Truck, Umbrella
 - NeRFPlayer: A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields, IEEE Transactions on Visualization and Computer Graphics, vol 29(5), 2023. [[Code](https://github.com/lsongx/nerfplayer-nerfstudio)]
 - Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction, Yang et. al., ACM Transactions on Graphics, 2023. [[Paper](https://arxiv.org/pdf/2309.13101.pdf) | [Project Page](https://ingra14m.github.io/Deformable-Gaussians/) | [Code](https://github.com/ingra14m/Deformable-3D-Gaussians)]
 - V4d: Voxel for 4d novel view synthesis, Gan et. al., IEEE Transactions on Visualization and Computer Graphics, 2023. [[Code](https://github.com/GANWANSHUI/V4D)]
+- MixVoxels: Mixed Neural Voxels for Fast Multi-view Video Synthesis, ICCV2023 Oral. [Code](https://github.com/fengres/mixvoxels)
+- HOSNeRF: Dynamic Human-Object-Scene Neural Radiance Fields from a Single Video, ICCV2023. [Code](https://github.com/TencentARC/HOSNeRF)
 
 ## 2022
 - Fourier PlenOctrees for Dynamic Radiance Field Rendering in Real-time, CVPR 2022 [[Project Page](https://aoliao12138.github.io/FPO/)]
