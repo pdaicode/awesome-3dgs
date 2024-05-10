@@ -28,8 +28,16 @@ Other resources: [Dynamic NeRF](./dynamic.md)
 ### 2024
 - GaussianPro: 3D Gaussian Splatting with Progressive Propagation, [[Paper](https://arxiv.org/abs/2402.14650) | [Project](https://github.com/kcheng1021/GaussianPro)]
 - VR-GS: A Physical Dynamics-Aware Interactive Gaussian Splatting System in Virtual Reality, [[Paper](https://arxiv.org/abs/2401.16663) | [Project](https://yingjiang96.github.io/VR-GS/)]
+- MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images, [[Paper](https://arxiv.org/pdf/2403.14627) | [Project](https://github.com/donydchen/mvsplat)]
 
-Compression & Efficiency
+**SLAM & Sensor Fusion**
+- Gaussian Splatting SLAM, CVPR 2024 [[Paper](https://arxiv.org/abs/2312.06741) | [Code](https://github.com/muskie82/MonoGS)]
+- SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM, CVPR 2024. [[Paper](https://arxiv.org/pdf/2312.02126.pdf) | [Code](https://github.com/spla-tam/SplaTAM)]
+- RGBD GS-ICP SLAM, [[Paper](https://arxiv.org/abs/2403.12550) | [Code](https://github.com/Lab-of-AI-and-Robotics/GS_ICP_SLAM)]
+- Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting, [[Paper](https://ivi.fnwi.uva.nl/cv/paper/GaussianSLAM.pdf) | [Code](https://github.com/VladimirYugay/Gaussian-SLAM)]
+- Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras, [[Paper](https://arxiv.org/pdf/2311.16728.pdf) | [Code](https://github.com/HuajianUP/Photo-SLAM)]
+
+**Compression & Efficiency**
 - GaussianPro: 3D Gaussian Splatting with Progressive Propagation, [[Paper](https://arxiv.org/abs/2402.14650) | [Code](https://github.com/kcheng1021/GaussianPro)]
 - InstantSplat: Unbounded Sparse-view Pose-free Gaussian Splatting in 10 Seconds, [[Paper](https://arxiv.org/pdf/2403.20309.pdf)
 - HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression, [[Paper](https://arxiv.org/abs/2403.14530) | [Code](https://github.com/YihangChen-ee/HAC)]
@@ -50,7 +58,6 @@ Quality
 - NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance, [Paper](https://arxiv.org/abs/2312.00846)
 - Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images, [Paper](https://arxiv.org/pdf/2311.13398)
 - GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting, [Paper](https://arxiv.org/abs/2311.11700)
-- SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM, [[Paper](https://arxiv.org/pdf/2312.02126.pdf) | [Code](https://github.com/spla-tam/SplaTAM)]
 
 Reflection & Relighting
 - GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces, [[Paper](https://arxiv.org/abs/2311.17977) | [Code](https://github.com/Asparagus15/GaussianShader)]
