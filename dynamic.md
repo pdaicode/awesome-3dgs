@@ -23,10 +23,16 @@ Balloon1, Balloon2, Jumping, Playground, Skating, Truck, Umbrella
 # 2. Papers
 ## 2024
 - Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis, Luiten et. al., International Conference on 3D Vision (3DV), 2024. [[Paper](https://dynamic3dgaussians.github.io/paper.pdf) | [Project Page](https://dynamic3dgaussians.github.io/) | [Code](https://github.com/JonathonLuiten/Dynamic3DGaussians) | [Explanation Video](https://www.youtube.com/live/hDuy1TgD8I4?si=6oGN0IYnPRxOibpg)]
+- Sync-NeRF : Generalizing Dynamic NeRFs to Unsynchronized Videos, AAAI 2024. [[Paper](https://arxiv.org/abs/2310.13356), [Code](https://github.com/seoha-kim/Sync-NeRF)]
+- Endo-4DGS: Endoscopic Monocular Scene Reconstruction with 4D Gaussian Splatting, [[Paper](https://arxiv.org/abs/2401.16416) | [Code](https://github.com/lastbasket/Endo-4DGS)]
 - DaReNeRF: Direction-aware Representation for Dynamic Scenes, CVPR 2024
 - DynPoint: Dynamic Neural Point For View Synthesis, NeurIPS 2024.
 - Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos, AAAI2024. [Code](https://github.com/seoha-kim/Sync-NeRF)
 - SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes. [Code](https://github.com/yihua7/SC-GS)
+- GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation
+- Entity-NeRF: Detecting and Removing Moving Entities in Urban Scenes, CVPR 2024. [Project](https://otonari726.github.io/entitynerf/)
+- Ced-NeRF: A Compact and Efficient Method for Dynamic Neural Radiance Fields, AAAI 2024. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28138)
+- 3D Geometry-aware Deformable Gaussian Splatting for Dynamic View Synthesis, CVPR 2024. [Project](https://npucvr.github.io/GaGS/)
 
 ## 2023
 - DynIBaR: Neural Dynamic Image-Based Rendering, CVPR, 2023 [[Project Page](https://dynibar.github.io/)]
