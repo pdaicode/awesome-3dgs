@@ -12,12 +12,12 @@ Other resources: [Dynamic NeRF](./dynamic.md)
 
 ## Most Recent Update & News:
 [Complete List](./UpdateLog.md)
-- 7 May: added **2024** section
-- 21 Dec: added **verified** section
-- 26 Nov: added more details for cumstom data.
-- 14 Nov: Start a separate page for [**NeRF**](./nerf)
-- 29 Oct: Start a separate page for [**Dynamic NeRF**](./dynamic)
-- 27 Oct: [News] Luma AI releases ["Luma UE Plugin 0.4"](https://twitter.com/LumaLabsAI/status/1717979512313364626): now with splats! Crop, cull, relight, supporting UE 5.3!
+- May 2024: added **2024** section
+- Dec 2023: added **verified** section
+- 26 Nov 2023: added more details for cumstom data.
+- Nov 2023: Start a separate page for [**NeRF**](./nerf)
+- 29 Oct 2023: Start a separate page for [**Dynamic NeRF**](./dynamic)
+- 27 Oct 2023: [News] Luma AI releases ["Luma UE Plugin 0.4"](https://twitter.com/LumaLabsAI/status/1717979512313364626): now with splats! Crop, cull, relight, supporting UE 5.3!
 
 ## 1. 3D Reconstruction
 
@@ -25,10 +25,16 @@ Other resources: [Dynamic NeRF](./dynamic.md)
 [Bernhard Kerbl](https://scholar.google.at/citations?user=jeasMB0AAAAJ&hl=en), [Georgios Kopanas](https://scholar.google.com/citations?user=QLWLLHMAAAAJ), [Thomas Leimkühler](https://www-sop.inria.fr/members/Thomas-Sebastian.Leimkuhler/), [George Drettakis](https://scholar.google.fr/citations?user=LGo5J4IAAAAJ&hl=en), SIGGRAPH 2023 (Best Paper). 
 [[📄 Paper (Low Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf) | [📄 Paper (High Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf) | [🌐 Project Page](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) | [💻 Code](https://github.com/graphdeco-inria/gaussian-splatting) | [🎥 Short Presentation](https://youtu.be/T_kXY43VZnk?si=DrkbDFxQAv5scQNT) | [🎥 Explanation Video](https://www.youtube.com/live/xgwvU7S0K-k?si=edF8NkYtsRbgTbKi) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pdaicode/awesome-3dgs/blob/master/colabs/gaussian_splatting_colab.ipynb)]
 
+### Other Neural Rendering Papers
+- N-BVH: Neural ray queries with bounding volume hierarchies, SIGGRAPH 2024. [[Paper](https://weiphil.s3.eu-central-1.amazonaws.com/neural_bvh.pdf) | [Project](https://weiphil.github.io/portfolio/neural_bvh) | [Code](https://github.com/WeiPhil/nbvh)]
+- High-quality Surface Reconstruction using Gaussian Surfels. [[Paper](https://arxiv.org/pdf/2404.17774) | [Code](https://github.com/turandai/gaussian_surfels)]
+
 ### 2024
 - GaussianPro: 3D Gaussian Splatting with Progressive Propagation, [[Paper](https://arxiv.org/abs/2402.14650) | [Project](https://github.com/kcheng1021/GaussianPro)]
 - VR-GS: A Physical Dynamics-Aware Interactive Gaussian Splatting System in Virtual Reality, [[Paper](https://arxiv.org/abs/2401.16663) | [Project](https://yingjiang96.github.io/VR-GS/)]
 - MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images, [[Paper](https://arxiv.org/pdf/2403.14627) | [Project](https://github.com/donydchen/mvsplat)]
+- Deblur-GS: 3D Gaussian Splatting from Camera Motion Blurred Images, I3D 2024. [[Paper](https://chaphlagical.icu/Deblur-GS/static/paper/Deblur_GS_author_version.pdf) | [Code](https://github.com/Chaphlagical/Deblur-GS)]
+- [2DGS](./colabs/2DGS.ipynb): 2D Gaussian Splatting for Geometrically Accurate Radiance Fields, SIGGRAPH 2024. [[Paper](https://arxiv.org/abs/2403.17888) | [Project](https://surfsplatting.github.io/) | [Code](https://github.com/hbb1/2d-gaussian-splatting)]
 
 **SLAM & Sensor Fusion**
 - Gaussian Splatting SLAM, CVPR 2024 [[Paper](https://arxiv.org/abs/2312.06741) | [Code](https://github.com/muskie82/MonoGS)]
@@ -42,6 +48,7 @@ Other resources: [Dynamic NeRF](./dynamic.md)
 - InstantSplat: Unbounded Sparse-view Pose-free Gaussian Splatting in 10 Seconds, [[Paper](https://arxiv.org/pdf/2403.20309.pdf)
 - HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression, [[Paper](https://arxiv.org/abs/2403.14530) | [Code](https://github.com/YihangChen-ee/HAC)]
 - Reducing the Memory Footprint of 3D Gaussian Splatting, [[Paper](https://repo-sam.inria.fr/fungraph/reduced_3dgs/reduced_3DGS_i3d.pdf) | [Project](https://repo-sam.inria.fr/fungraph/reduced_3dgs/#:~:text=Our%20approach%20to%20reduce%20the,is%20applied%20as%20post%2Dprocessing.)]
+- SUNDAE: Spectrally Pruned Gaussian Fields with Neural Compensation, [[Paper](https://runyiyang.github.io/data/SUNDAE.pdf) | [Code](https://github.com/RunyiYang/SUNDAE)]
 
 ### 2023
 Speed & Efficiency
@@ -112,6 +119,7 @@ Papers with shared code are ranked higher in this list
 - [Taichi 3D Gaussian Splatting](https://github.com/wanmeihuali/taichi_3d_gaussian_splatting)
 
 ### Viewers 
+- [Playcanvas](https://github.com/playcanvas/supersplat)
 - [Luma AI (WebGL)](https://lumalabs.ai/luma-web-library)
 - [WebGL Viewer 1](https://github.com/antimatter15/splat)
 - [WebGL Viewer 2](https://github.com/cvlab-epfl/gaussian-splatting-web)
