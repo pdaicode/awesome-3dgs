@@ -31,10 +31,13 @@ Other resources: [Dynamic NeRF](./dynamic.md)
 ### 2024
 **General**
 - [2DGS](./colabs/2DGS.ipynb): 2D Gaussian Splatting for Geometrically Accurate Radiance Fields, SIGGRAPH 2024. [[Paper](https://arxiv.org/abs/2403.17888) | [Project](https://surfsplatting.github.io/) | [Code](https://github.com/hbb1/2d-gaussian-splatting)]
+- Deblur-GS: 3D Gaussian Splatting from Camera Motion Blurred Images, I3D 2024. [[Paper](https://chaphlagical.icu/Deblur-GS/static/paper/Deblur_GS_author_version.pdf) | [Code](https://github.com/Chaphlagical/Deblur-GS)]
+- GaussianVTON: 3D Human Virtual Try-ON via Multi-Stage Gaussian Splatting Editing with Image Prompting, [[Paper](https://arxiv.org/abs/2405.07472) | [Code](https://github.com/HaroldChen19/GaussianVTON)]
+
 - GaussianPro: 3D Gaussian Splatting with Progressive Propagation, [[Paper](https://arxiv.org/abs/2402.14650) | [Project](https://github.com/kcheng1021/GaussianPro)]
 - VR-GS: A Physical Dynamics-Aware Interactive Gaussian Splatting System in Virtual Reality, [[Paper](https://arxiv.org/abs/2401.16663) | [Project](https://yingjiang96.github.io/VR-GS/)]
 - MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images, [[Paper](https://arxiv.org/pdf/2403.14627) | [Project](https://github.com/donydchen/mvsplat)]
-- Deblur-GS: 3D Gaussian Splatting from Camera Motion Blurred Images, I3D 2024. [[Paper](https://chaphlagical.icu/Deblur-GS/static/paper/Deblur_GS_author_version.pdf) | [Code](https://github.com/Chaphlagical/Deblur-GS)]
+- DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting,  [[Paper](https://arxiv.org/abs/2404.06903) | [Project](https://dreamscene360.github.io/)]
 
 **SLAM & Sensor Fusion**
 - Gaussian Splatting SLAM, CVPR 2024 [[Paper](https://arxiv.org/abs/2312.06741) | [Code](https://github.com/muskie82/MonoGS)]
