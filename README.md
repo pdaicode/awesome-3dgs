@@ -30,6 +30,7 @@ Other resources:
 - N-BVH: Neural ray queries with bounding volume hierarchies, SIGGRAPH 2024. [[Paper](https://weiphil.s3.eu-central-1.amazonaws.com/neural_bvh.pdf) | [Project](https://weiphil.github.io/portfolio/neural_bvh) | [Code](https://github.com/WeiPhil/nbvh)]
 - High-quality Surface Reconstruction using Gaussian Surfels. [[Paper](https://arxiv.org/pdf/2404.17774) | [Code](https://github.com/turandai/gaussian_surfels)]
 - Toon3D: Seeing Cartoons from a New Perspective, 2024. [[Paper](https://arxiv.org/abs/2405.10320) | [Project](https://toon3d.studio/) | [Code](https://github.com/ethanweber/toon3d)]
+- Texture Generation on 3D Meshes with Point-UV Diffusion, 2024. [[Paper](https://arxiv.org/abs/2308.10490) | [Project](https://cvmi-lab.github.io/Point-UV-Diffusion/) | [Code](https://github.com/CVMI-Lab/Point-UV-Diffusion)]
 
 ### 2024
 **General**
@@ -42,6 +43,13 @@ Other resources:
 - VR-GS: A Physical Dynamics-Aware Interactive Gaussian Splatting System in Virtual Reality, [[Paper](https://arxiv.org/abs/2401.16663) | [Project](https://yingjiang96.github.io/VR-GS/)]
 - MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images, [[Paper](https://arxiv.org/pdf/2403.14627) | [Project](https://github.com/donydchen/mvsplat)]
 - DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting,  [[Paper](https://arxiv.org/abs/2404.06903) | [Project](https://dreamscene360.github.io/)]
+
+- COLMAP-Free 3D Gaussian Splatting, CVPR2024. [[Paper](https://arxiv.org/abs/2312.07504) | [Project](https://oasisyang.github.io/colmap-free-3dgs/) | [Code](https://github.com/NVlabs/CF-3DGS)]
+- FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization, CVPR 2024. [[Paper](https://arxiv.org/abs/2403.06908) | [Project](https://rogeraigc.github.io/FreGS-Page/)]
+- GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting, CVPR 2024. [[Project](https://gs-slam.github.io/)]
+- LangSplat: 3D Language Gaussian Splatting, CVPR 2024 (Highlight). [[Project](https://langsplat.github.io/)]
+- SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering, CVPR 2024.
+- GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces, CVPR 2024.
 
 **LLM & 3D**
 - Comp4D: LLM-Guided Compositional 4D Scene Generation, [[Paper](https://arxiv.org/abs/2403.16993) | [Project](https://vita-group.github.io/Comp4D/)]
@@ -60,6 +68,7 @@ Other resources:
 - HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression, [[Paper](https://arxiv.org/abs/2403.14530) | [Code](https://github.com/YihangChen-ee/HAC)]
 - Reducing the Memory Footprint of 3D Gaussian Splatting, [[Paper](https://repo-sam.inria.fr/fungraph/reduced_3dgs/reduced_3DGS_i3d.pdf) | [Project](https://repo-sam.inria.fr/fungraph/reduced_3dgs/#:~:text=Our%20approach%20to%20reduce%20the,is%20applied%20as%20post%2Dprocessing.)]
 - SUNDAE: Spectrally Pruned Gaussian Fields with Neural Compensation, [[Paper](https://runyiyang.github.io/data/SUNDAE.pdf) | [Code](https://github.com/RunyiYang/SUNDAE)]
+- Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis, CVPR 2024. [[Project](https://keksboter.github.io/c3dgs/) | [Code](https://github.com/KeKsBoTer/c3dgs)]
 
 ### 2023
 Speed & Efficiency
