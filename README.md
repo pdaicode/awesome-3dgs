@@ -54,7 +54,7 @@ Other resources:
 - LangSplat: 3D Language Gaussian Splatting, CVPR 2024 (Highlight). [[Project](https://langsplat.github.io/)]
 - SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering, CVPR 2024.
 - GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces, CVPR 2024.
-
+- pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction, CVPR 2024.
 
 
 **LLM & 3D**
