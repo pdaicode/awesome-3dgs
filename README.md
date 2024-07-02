@@ -20,6 +20,10 @@ Other resources:
 - Nov 2023: Start a separate page for [**NeRF**](./nerf)
 - 29 Oct 2023: Start a separate page for [**Dynamic NeRF**](./dynamic)
 
+### CVPR 2024 word cloud:
+
+<img src="images/cvpr2024.png" alt="cvpr2024" width="500" >
+
 ## 1. 3D Reconstruction
 
 - **3D Gaussian Splatting for Real-Time Radiance Field Rendering**, 
@@ -50,6 +54,8 @@ Other resources:
 - LangSplat: 3D Language Gaussian Splatting, CVPR 2024 (Highlight). [[Project](https://langsplat.github.io/)]
 - SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering, CVPR 2024.
 - GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces, CVPR 2024.
+- pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction, CVPR 2024.
+
 
 **LLM & 3D**
 - Comp4D: LLM-Guided Compositional 4D Scene Generation, [[Paper](https://arxiv.org/abs/2403.16993) | [Project](https://vita-group.github.io/Comp4D/)]
