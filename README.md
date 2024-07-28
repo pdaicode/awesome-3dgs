@@ -55,6 +55,16 @@ Other resources:
 - SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering, CVPR 2024.
 - GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces, CVPR 2024.
 - pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction, CVPR 2024.
+- Surfel-based Gaussian Inverse Rendering for Fast and Relightable Dynamic Human Reconstruction from Monocular Video, 2024. [[Paper](https://arxiv.org/pdf/2407.15212) | [Project](https://gs-ia.github.io/)]
+- GaussMR: Interactive Gaussian Splatting Sandbox with GPU Particles and Signed Distance Fields, SIGGRAPH 2024. [[Paper](https://dl.acm.org/doi/pdf/10.1145/3641521.3664405?casa_token=GXIJMXbeT1sAAAAA:Pqv_zjOe9uXiTSVUEj03Hz8lDRAynMJPDIAuLBI_unPN9gG06KI_Lks6SJJFgAG4CLKRY6wFpBR5cQ)]
+- MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo, ECCV 2024. [[Project](https://mvsgaussian.github.io/) | [Code](https://github.com/TQTQliu/MVSGaussian)]
+- Gaussian in the Wild: 3D Gaussian Splatting for Unconstrained Image Collections, 2024. [[Project](https://eastbeanzhang.github.io/GS-W/) | [Code](https://github.com/EastbeanZhang/Gaussian-Wild)]
+
+**[Dynamic](https://github.com/pdaicode/awesome-dynamic-NeRF)**
+- Shape of Motion: 4D Reconstruction from a Single Video, 2024. [[Project](https://shape-of-motion.github.io/) | [Code](https://github.com/vye16/shape-of-motion/)]
+- MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds, 2024. [Project](https://www.cis.upenn.edu/~leijh/projects/mosca/)
+- Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos, 2024.
+
 
 
 **LLM & 3D**
