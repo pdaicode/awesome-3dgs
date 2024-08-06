@@ -14,6 +14,7 @@ Other resources:
 
 ## Most Recent Update & News:
 [Complete List](./UpdateLog.md)
+- Aug 2024: added papers for improving NeRF speed
 - May 2024: added **2024** section, added **LLM** subsection
 - Dec 2023: added **verified** section
 - 26 Nov 2023: added more details for cumstom data.
@@ -59,6 +60,11 @@ Other resources:
 - GaussMR: Interactive Gaussian Splatting Sandbox with GPU Particles and Signed Distance Fields, SIGGRAPH 2024. [[Paper](https://dl.acm.org/doi/pdf/10.1145/3641521.3664405?casa_token=GXIJMXbeT1sAAAAA:Pqv_zjOe9uXiTSVUEj03Hz8lDRAynMJPDIAuLBI_unPN9gG06KI_Lks6SJJFgAG4CLKRY6wFpBR5cQ)]
 - MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo, ECCV 2024. [[Project](https://mvsgaussian.github.io/) | [Code](https://github.com/TQTQliu/MVSGaussian)]
 - Gaussian in the Wild: 3D Gaussian Splatting for Unconstrained Image Collections, 2024. [[Project](https://eastbeanzhang.github.io/GS-W/) | [Code](https://github.com/EastbeanZhang/Gaussian-Wild)]
+
+**[NeRF (Improving speed & efficiency)](./nerf.md)**
+- How Far Can We Compress Instant-NGP-Based NeRF? CVPR 2024. [[Project](https://yihangchen-ee.github.io/project_cnc/) | [code](https://github.com/YihangChen-ee/CNC)]
+- FastSR-NeRF: Improving NeRF Efficiency on Consumer Devices With a Simple Super-Resolution Pipeline, WACV 2024. [[Paper](https://openaccess.thecvf.com/content/WACV2024/papers/Lin_FastSR-NeRF_Improving_NeRF_Efficiency_on_Consumer_Devices_With_a_Simple_WACV_2024_paper.pdf)]
+- HybridNeRF: Efficient Neural Rendering via Adaptive Volumetric Surfaces, CVPR 2024. [Project](https://haithemturki.com/hybrid-nerf/)
 
 **[Dynamic](https://github.com/pdaicode/awesome-dynamic-NeRF)**
 - Shape of Motion: 4D Reconstruction from a Single Video, 2024. [[Project](https://shape-of-motion.github.io/) | [Code](https://github.com/vye16/shape-of-motion/)]
