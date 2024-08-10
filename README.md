@@ -39,27 +39,43 @@ Other resources:
 
 ### 2024
 **General**
-- [2DGS](./colabs/2DGS.ipynb): 2D Gaussian Splatting for Geometrically Accurate Radiance Fields, SIGGRAPH 2024. [[Paper](https://arxiv.org/abs/2403.17888) | [Project](https://surfsplatting.github.io/) | [Code](https://github.com/hbb1/2d-gaussian-splatting)]
+- ```[+]``` [2DGS](./colabs/2DGS.ipynb): 2D Gaussian Splatting for Geometrically Accurate Radiance Fields, SIGGRAPH 2024. [[Paper](https://arxiv.org/abs/2403.17888) | [Project](https://surfsplatting.github.io/) | [Code](https://github.com/hbb1/2d-gaussian-splatting)]
 - Deblur-GS: 3D Gaussian Splatting from Camera Motion Blurred Images, I3D 2024. [[Paper](https://chaphlagical.icu/Deblur-GS/static/paper/Deblur_GS_author_version.pdf) | [Code](https://github.com/Chaphlagical/Deblur-GS)]
 - GaussianVTON: 3D Human Virtual Try-ON via Multi-Stage Gaussian Splatting Editing with Image Prompting, [[Paper](https://arxiv.org/abs/2405.07472) | [Code](https://github.com/HaroldChen19/GaussianVTON)]
 - DarkGS: Learning Neural Illumination and 3D Gaussians Relighting for Robotic Exploration in the Dark, [[Paper](https://arxiv.org/abs/2403.10814) | [Project](https://github.com/tyz1030/darkgs)]
-
-- GaussianPro: 3D Gaussian Splatting with Progressive Propagation, [[Paper](https://arxiv.org/abs/2402.14650) | [Project](https://github.com/kcheng1021/GaussianPro)]
+- GaussianPro: 3D Gaussian Splatting with Progressive Propagation, ICML 2024. [[Paper](https://arxiv.org/abs/2402.14650) | [Project](https://github.com/kcheng1021/GaussianPro)]
 - VR-GS: A Physical Dynamics-Aware Interactive Gaussian Splatting System in Virtual Reality, [[Paper](https://arxiv.org/abs/2401.16663) | [Project](https://yingjiang96.github.io/VR-GS/)]
-- MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images, [[Paper](https://arxiv.org/pdf/2403.14627) | [Project](https://github.com/donydchen/mvsplat)]
+- MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images, ECCV2024. [[Paper](https://arxiv.org/pdf/2403.14627) | [Project](https://github.com/donydchen/mvsplat)]
 - DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting,  [[Paper](https://arxiv.org/abs/2404.06903) | [Project](https://dreamscene360.github.io/)]
 
 - COLMAP-Free 3D Gaussian Splatting, CVPR2024. [[Paper](https://arxiv.org/abs/2312.07504) | [Project](https://oasisyang.github.io/colmap-free-3dgs/) | [Code](https://github.com/NVlabs/CF-3DGS)]
 - FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization, CVPR 2024. [[Paper](https://arxiv.org/abs/2403.06908) | [Project](https://rogeraigc.github.io/FreGS-Page/)]
 - GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting, CVPR 2024. [[Project](https://gs-slam.github.io/)]
-- LangSplat: 3D Language Gaussian Splatting, CVPR 2024 (Highlight). [[Project](https://langsplat.github.io/)]
+- LangSplat: 3D Language Gaussian Splatting, CVPR 2024 (Highlight). [[Project](https://langsplat.github.io/) | [Code](https://github.com/minghanqin/LangSplat)]
 - SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering, CVPR 2024.
-- GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces, CVPR 2024.
+- GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces, CVPR 2024. [[Project](https://asparagus15.github.io/GaussianShader.github.io/) | [Code](https://github.com/Asparagus15/GaussianShader)]
 - pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction, CVPR 2024.
+- Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers, CVPR 2024. [[Project](https://zouzx.github.io/TriplaneGaussian/) | [Code](https://github.com/VAST-AI-Research/TriplaneGaussian)]
+- GS-IR: 3D Gaussian Splatting for Inverse Rendering, CVPR 2024. [[Project](https://lzhnb.github.io/project-pages/gs-ir.html) | [Code](https://github.com/lzhnb/GS-IR)]
+- GPS-Gaussian: Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis, CVPR 2024. [[Project](https://shunyuanzheng.github.io/GPS-Gaussian) | [Code](https://github.com/aipixel/GPS-Gaussian)]
+
 - Surfel-based Gaussian Inverse Rendering for Fast and Relightable Dynamic Human Reconstruction from Monocular Video, 2024. [[Paper](https://arxiv.org/pdf/2407.15212) | [Project](https://gs-ia.github.io/)]
 - GaussMR: Interactive Gaussian Splatting Sandbox with GPU Particles and Signed Distance Fields, SIGGRAPH 2024. [[Paper](https://dl.acm.org/doi/pdf/10.1145/3641521.3664405?casa_token=GXIJMXbeT1sAAAAA:Pqv_zjOe9uXiTSVUEj03Hz8lDRAynMJPDIAuLBI_unPN9gG06KI_Lks6SJJFgAG4CLKRY6wFpBR5cQ)]
 - MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo, ECCV 2024. [[Project](https://mvsgaussian.github.io/) | [Code](https://github.com/TQTQliu/MVSGaussian)]
+- Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Image, CVPRW 2024 (3DMV). [[Project](https://robot0321.github.io/DepthRegGS/index.html) | [Code](https://github.com/robot0321/DepthRegularizedGS)]
+- Spec-Gaussian: Anisotropic View-Dependent Appearance for 3D Gaussian Splatting, 2024. [[Project](https://ingra14m.github.io/Spec-Gaussian-website/) | [Code](https://github.com/ingra14m/Spec-Gaussian)]
+- Deblurring 3D Gaussian Splatting, ECCV 2024. [[Project](https://benhenryl.github.io/Deblurring-3D-Gaussian-Splatting/) | [Code](https://github.com/benhenryL/Deblurring-3D-Gaussian-Splatting)]
+- bsGS: Recovering Fine Details for 3D Gaussian Splatting, ACM MM 2024. [Code](https://github.com/Asparagus15/GaussianShader)
+- GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting, 2024. [[Project](https://sai-bi.github.io/project/gs-lrm/)]
+
+- WildGaussians: 3D Gaussian Splatting in the Wild, 2024. [[Project](https://wild-gaussians.github.io/)]
 - Gaussian in the Wild: 3D Gaussian Splatting for Unconstrained Image Collections, 2024. [[Project](https://eastbeanzhang.github.io/GS-W/) | [Code](https://github.com/EastbeanZhang/Gaussian-Wild)]
+- On Scaling Up 3D Gaussian Splatting Training, 2024. [[Project](https://daohanlu.github.io/scaling-up-3dgs/) | [Code](https://github.com/nyu-systems/Grendel-GS)]
+
+**Literature Review**
+- Recent advances in 3D Gaussian splatting, Computational Visual Media, 2024. [[Paper](https://link.springer.com/article/10.1007/s41095-024-0436-y)]
+- 3D Gaussian Splatting as New Era: A Survey, IEEE Transactions on Visualization and Computer Graphics, 2024. [[Paper](https://ieeexplore.ieee.org/abstract/document/10521791?casa_token=CmDrVUqmo1kAAAAA:3ekE_T2xp9gWMActz0wLQ3Z6m7cdmyomp0ubYIl-nVZyheke22vbIoCKjId1jouaI4m7rm-UFQ)]
+- Gaussian Splatting: 3D Reconstruction and Novel View Synthesis: A Review, IEEE Access, 2024. [[Paper](https://ieeexplore.ieee.org/abstract/document/10545567)]
 
 **[NeRF (Improving speed & efficiency)](./nerf.md)**
 - How Far Can We Compress Instant-NGP-Based NeRF? CVPR 2024. [[Project](https://yihangchen-ee.github.io/project_cnc/) | [code](https://github.com/YihangChen-ee/CNC)]
@@ -70,7 +86,7 @@ Other resources:
 - Shape of Motion: 4D Reconstruction from a Single Video, 2024. [[Project](https://shape-of-motion.github.io/) | [Code](https://github.com/vye16/shape-of-motion/)]
 - MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds, 2024. [Project](https://www.cis.upenn.edu/~leijh/projects/mosca/)
 - Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos, 2024.
-
+- CoGS : Controllable Gaussian Splatting, CVPR 2024. [[Project](https://cogs2024.github.io/) | [Code](https://github.com/Heng14/CoGS/tree/main)]
 
 
 **LLM & 3D**
@@ -101,8 +117,8 @@ Speed & Efficiency
 
 Quality
 - Mip-Splatting: Alias-free 3D Gaussian Splatting, [[Paper](https://arxiv.org/abs/2311.16493) | [Code](https://github.com/autonomousvision/mip-splatting)]
+- Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering, [[Paper](https://arxiv.org/abs/2311.17089) | [Code](https://github.com/JokerYan/MS-GS/tree/main)]
 - FisherRF: Active View Selection and Uncertainty Quantification for Radiance Fields using Fisher Information, [Paper](https://arxiv.org/abs/2311.17874)
-- Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering, [Paper](https://arxiv.org/abs/2311.17089)
 - COLMAP-Free 3D Gaussian Splatting, [[Paper](https://arxiv.org/pdf/2312.07504) | [Project](https://oasisyang.github.io/colmap-free-3dgs/)]
 - NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance, [Paper](https://arxiv.org/abs/2312.00846)
 - Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images, [Paper](https://arxiv.org/pdf/2311.13398)
