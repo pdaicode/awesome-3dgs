@@ -131,6 +131,7 @@ Reflection & Relighting
 Others
 - Splatter Image: Ultra-Fast Single-View 3D Reconstruction, [[Paper](https://arxiv.org/abs/2312.13150) | [Code](https://github.com/szymanowiczs/splatter-image)]
 - pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction, [[Paper](https://arxiv.org/abs/2312.12337) | [Project Page](https://davidcharatan.com/pixelsplat/)]
+- Volume Feature Rendering for Fast Neural Radiance Field Reconstruction, NeurIPS 2023. 
 
 ## 2. Dynamic 3D Gaussian Splatting:
 - ```[+]``` 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering, [[Paper](https://arxiv.org/pdf/2310.08528.pdf) | [Project Page](https://guanjunwu.github.io/4dgs/) | [Code](https://github.com/hustvl/4DGaussians) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pdaicode/awesome-3dgs/blob/master/colabs/4DGaussians.ipynb)]

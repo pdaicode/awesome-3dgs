@@ -1,5 +1,7 @@
 # Dynamic NeRF
 
+**Verified**: Papers listed with ```[+]``` have been verfied by myself or colleagues. The code is runnable. Please leave an issue if you need help on setting up.
+
 # 1. Datasets
 ## Custom Data Preparation
 - [Monocular Dynamic View Synthesis: A Reality Check](https://github.com/KAIR-BAIR/dycheck/blob/main/docs/RECORD3D_CAPTURE.md)
@@ -26,13 +28,18 @@ Balloon1, Balloon2, Jumping, Playground, Skating, Truck, Umbrella
 - Sync-NeRF : Generalizing Dynamic NeRFs to Unsynchronized Videos, AAAI 2024. [[Paper](https://arxiv.org/abs/2310.13356), [Code](https://github.com/seoha-kim/Sync-NeRF)]
 - Endo-4DGS: Endoscopic Monocular Scene Reconstruction with 4D Gaussian Splatting, [[Paper](https://arxiv.org/abs/2401.16416) | [Code](https://github.com/lastbasket/Endo-4DGS)]
 - DaReNeRF: Direction-aware Representation for Dynamic Scenes, CVPR 2024
-- DynPoint: Dynamic Neural Point For View Synthesis, NeurIPS 2024.
 - Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos, AAAI2024. [Code](https://github.com/seoha-kim/Sync-NeRF)
 - SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes. [Code](https://github.com/yihua7/SC-GS)
 - GaussianFlow: Splatting Gaussian Dynamics for 4D Content Creation
 - Entity-NeRF: Detecting and Removing Moving Entities in Urban Scenes, CVPR 2024. [Project](https://otonari726.github.io/entitynerf/)
 - Ced-NeRF: A Compact and Efficient Method for Dynamic Neural Radiance Fields, AAAI 2024. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28138)
 - 3D Geometry-aware Deformable Gaussian Splatting for Dynamic View Synthesis, CVPR 2024. [Project](https://npucvr.github.io/GaGS/)
+
+- FPO++: efficient encoding and rendering of dynamic neural radiance fields by analyzing and enhancing Fourier PlenOctrees, The Visual Computer, 2024.
+- Evdnerf: Reconstructing event data with dynamic neural radiance fields, WACV 2024. [Code](https://github.com/anish-bhattacharya/EvDNeRF)
+- CTNeRF: Cross-time Transformer for dynamic neural radiance field from monocular video, Pattern Recognition, 2024. [Code](https://github.com/xingy038/ctnerf)
+- DynamicSurf: Dynamic Neural RGB-D Surface Reconstruction with an Optimizable Feature Grid, International Conference on 3D Vision (3DV) 2024. [Code](https://github.com/Mirgahney/dynsurf)
+- [+] Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis, CVPR 2024. [Code](https://github.com/oppo-us-research/SpacetimeGaussians)
 
 ## 2023
 - DynIBaR: Neural Dynamic Image-Based Rendering, CVPR, 2023 [[Project Page](https://dynibar.github.io/)]
@@ -47,12 +54,14 @@ Balloon1, Balloon2, Jumping, Playground, Skating, Truck, Umbrella
 - V4d: Voxel for 4d novel view synthesis, Gan et. al., IEEE Transactions on Visualization and Computer Graphics, 2023. [[Code](https://github.com/GANWANSHUI/V4D)]
 - MixVoxels: Mixed Neural Voxels for Fast Multi-view Video Synthesis, ICCV2023 Oral. [Code](https://github.com/fengres/mixvoxels)
 - HOSNeRF: Dynamic Human-Object-Scene Neural Radiance Fields from a Single Video, ICCV2023. [Code](https://github.com/TencentARC/HOSNeRF)
+- DynPoint: Dynamic Neural Point For View Synthesis, NeurIPS 2023.
 
 ## 2022
 - Fourier PlenOctrees for Dynamic Radiance Field Rendering in Real-time, CVPR 2022 [[Project Page](https://aoliao12138.github.io/FPO/)]
 - D2NeRF: Self-Supervised Decoupling of Dynamic and Static Objects from a Monocular Video, NeurIPS, 2022. [[Project Page](https://d2nerf.github.io/) | [Code](https://github.com/ChikaYan/d2nerf)]
 - Monocular Dynamic View Synthesis: A Reality Check, Gao et. al., Neurips 2022. [[Project Page](https://hangg7.com/dycheck/)]
 - TiNeuVox: Fast Dynamic Radiance Fields with Time-Aware Neural Voxels, Fang et. al., ACM SIGGRAPH Asia 2022. [[Project Page](https://jaminfong.cn/tineuvox/) | [Code](https://github.com/hustvl/TiNeuVox)]
+- Fourier PlenOctrees for Dynamic Radiance Field Rendering in Real-time, CVPR 2022. [Project](https://aoliao12138.github.io/FPO/)
 
 ## 2021
 - Nerfies: Deformable Neural Radiance Fields, ICCV, 2021. [[Code](https://github.com/google/nerfies)] (instructions for **custom data**, this is the one everyone refering to)
