@@ -30,3 +30,6 @@
 - Implicit Neural Head Synthesis via Controllable Local Deformation Fields, CVPR 2023. [**NeRF**] [[Project](https://imaging.cs.cmu.edu/local_deformation_fields/)]
 - DeepFaceLab: Integrated, flexible and extensible face-swapping framework, 2020. [[Paper](https://arxiv.org/abs/2005.05535)]
 - First Order Motion Model for Image Animation, NeurIPS 2019. [[Project](https://aliaksandrsiarohin.github.io/first-order-model-website/) | [Code](https://github.com/AliaksandrSiarohin/first-order-model)]
+
+## Demos
+- CatVTON: Concatenation Is All You Need for **Virtual Try-On** with Diffusion Models [Huggingface](https://huggingface.co/spaces/zhengchong/CatVTON)
