@@ -14,3 +14,7 @@
 - DeepFaceLab: Integrated, flexible and extensible face-swapping framework, 2020. [[Paper](https://arxiv.org/abs/2005.05535)]
 - First Order Motion Model for Image Animation, NeurIPS 2019. [[Project](https://aliaksandrsiarohin.github.io/first-order-model-website/) | [Code](https://github.com/AliaksandrSiarohin/first-order-model)]
 
+## Demos
+- CatVTON: Concatenation Is All You Need for **Virtual Try-On** with Diffusion Models [Huggingface](https://huggingface.co/spaces/zhengchong/CatVTON)
+- [CogVideo](https://github.com/THUDM/CogVideo/tree/main)
+- [FLUX](https://github.com/black-forest-labs/flux?tab=readme-ov-file#usage)
