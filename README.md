@@ -193,6 +193,7 @@ Papers with shared code are ranked higher in this list
 ### Product
 - [Luma AI](https://lumalabs.ai/interactive-scenes)
 - [Polycam](https://poly.cam/gaussian-splatting)
+- [SplatMart](https://www.splatmart.com) - Marketplace for buying and selling Gaussian splat scenes (PLY/SOGS/SPZ)
 
 ### Blog Posts
 
